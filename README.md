@@ -12,7 +12,7 @@ Some notes on how to run these:
           pbpaste | awk -f 02.02.awk | grep -v INVALID | wc -l
 
   3. [Instructions](https://adventofcode.com/2020/day/3)
-  
+
           python3 03.py 1 1 | awk '/#/' | wc -l
 
           python3 03.py 1 3 | awk '/#/' | wc -l
@@ -22,3 +22,9 @@ Some notes on how to run these:
           python3 03.py 1 7 | awk '/#/' | wc -l
 
           python3 03.py 2 1 | awk '/#/' | wc -l
+
+  4. [Instructions](https://adventofcode.com/2020/day/4)
+
+          pbpaste | awk -f 04.01.awk | grep -v INVALID | wc -l
+
+          pbpaste | awk -f 04.02.awk | grep -v INVALID | wc -l
