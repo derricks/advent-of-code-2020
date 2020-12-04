@@ -16,7 +16,7 @@
 # else invalid
 # input is on single lines or multiple lines
 
-# determines if the given number is is between (inclusively) the min and max
+# determines if the given number is between (inclusively) the min and max
 function number_between(number, min, max) {
   return (0+number) >= min && (0+number) <= max
 }
