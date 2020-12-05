@@ -29,7 +29,7 @@ Some notes on how to run these:
 
           pbpaste | awk -f 04.02.awk | grep -v INVALID | wc -l
 
-  5. [Instructions(https://adventofcode.com/2020/day/5)]
+  5. [Instructions](https://adventofcode.com/2020/day/5)]
 
           python3 05.01.py | sort -n | tail -n 1
           python3 05.02.py
