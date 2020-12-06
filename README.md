@@ -33,3 +33,8 @@ Some notes on how to run these:
 
           python3 05.01.py | sort -n | tail -n 1
           python3 05.02.py
+
+  6. [Instructions](https://adventofcode.com/2020/day/6)
+
+         pbpaste | awk -f 06.01.awk | awk '{sum += (0 + $0)} END {print sum}'
+         pbpaste | awk -f 06.02.awk | awk '{sum += (0+$0)} END {print sum}'
