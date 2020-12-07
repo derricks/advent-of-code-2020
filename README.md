@@ -38,3 +38,8 @@ Some notes on how to run these:
 
          pbpaste | awk -f 06.01.awk | awk '{sum += (0 + $0)} END {print sum}'
          pbpaste | awk -f 06.02.awk | awk '{sum += (0+$0)} END {print sum}'
+
+  7. [Instructions](https://adventofcode.com/2020/day/7)
+
+        python3 07.01.py | wc -l
+        python3 07.02.py | wc -l
