@@ -44,7 +44,7 @@ Some notes on how to run these:
         python3 07.01.py | wc -l
         python3 07.02.py | wc -l
 
-  8. [Instructions](https://adventofcode.com/2020/day/8)
+  8. [Instructions](https://adventofcode.com/2020/day/8) - requires awk to be gawk
 
         pbpaste | awk -f 08.01.awk
         pbpaste | awk -f 08.02.awk | grep Success
