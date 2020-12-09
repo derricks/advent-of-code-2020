@@ -48,3 +48,8 @@ Some notes on how to run these:
 
         pbpaste | awk -f 08.01.awk
         pbpaste | awk -f 08.02.awk | grep Success
+
+  9. [Instructions](https://adventofcode.com/2020/day/9)
+
+        python3 09.01.py
+        python3 09.02.py
